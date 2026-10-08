@@ -48,7 +48,7 @@ git add -A || goto :error
 git diff --cached --name-only | findstr /i /r /c:"^\.env$" /c:"^storage/" /c:"\.local-pg/" >nul
 if not errorlevel 1 (
   echo.
-  echo DUNG LAI: co file nhay cam (.env / storage / .local-pg) sap bi day len. Kiem tra .gitignore.
+  echo DUNG LAI: co file nhay cam ^(.env / storage / .local-pg^) sap bi day len. Kiem tra .gitignore.
   git reset >nul
   goto :end
 )
@@ -71,7 +71,7 @@ echo [5/5] Day len GitHub (lan dau se hien cua so dang nhap GitHub)...
 git push -u origin main
 if errorlevel 1 (
   echo.
-  echo Push bi tu choi - thuong do repo tren GitHub da co commit khac (vd. README tao luc lap repo).
+  echo Push bi tu choi - thuong do repo tren GitHub da co commit khac ^(vd. README tao luc lap repo^).
   echo Dang gop lich su tu GitHub roi day lai...
   git pull origin main --allow-unrelated-histories --no-edit || goto :error
   git push -u origin main || goto :error
