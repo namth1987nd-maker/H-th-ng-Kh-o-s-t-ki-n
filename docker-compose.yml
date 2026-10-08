@@ -1,0 +1,68 @@
+services:
+  db:
+    image: postgres:16
+    environment:
+      POSTGRES_USER: khaosat_owner
+      POSTGRES_PASSWORD: ${DB_OWNER_PASSWORD}
+      POSTGRES_DB: khaosat
+      APP_RW_PASSWORD: ${APP_RW_PASSWORD}
+      APP_RO_PASSWORD: ${APP_RO_PASSWORD}
+    volumes:
+      - pgdata:/var/lib/postgresql/data
+      - ./db/init:/docker-entrypoint-initdb.d:ro
+    ports: ["54329:5432"]  # cùng cổng với .env; bỏ dòng này khi triển khai nếu không cần truy cập từ ngoài container
+    healthcheck:
+      test: ["CMD-SHELL", "pg_isready -U khaosat_owner -d khaosat"]
+      interval: 5s
+      timeout: 3s
+      retries: 20
+
+  # Chạy một lần: migration + seed bằng tài khoản owner.
+  # Image "khao-sat-tools" build MỘT lần ở đây, worker dùng lại (không build + giải nén lần hai).
+  migrate:
+    build: { context: ., target: tools }
+    image: khao-sat-tools:latest
+    command: sh -c "npm run db:migrate && npm run db:seed"
+    environment:
+      MIGRATE_DATABASE_URL: postgresql://khaosat_owner:${DB_OWNER_PASSWORD}@db:5432/khaosat
+      SEED_FIRST_YEAR: ${SEED_FIRST_YEAR:-2024-2025}
+      SEED_ADMIN_EMAIL: ${SEED_ADMIN_EMAIL:-}
+      SEED_ADMIN_NAME: ${SEED_ADMIN_NAME:-Quản trị hệ thống}
+      SEED_ADMIN_PASSWORD: ${SEED_ADMIN_PASSWORD:-}
+    depends_on:
+      db: { condition: service_healthy }
+    restart: "no"
+
+  app:
+    build: { context: ., target: app }
+    environment: &app-env
+      DATABASE_URL: postgresql://app_rw:${APP_RW_PASSWORD}@db:5432/khaosat
+      DATABASE_URL_RO: postgresql://app_ro:${APP_RO_PASSWORD}@db:5432/khaosat
+      HASH_SECRET: ${HASH_SECRET}            # khóa HMAC cho mã người học, giữ ngoài DB
+      AUTH_SECRET: ${AUTH_SECRET}
+      AUTH_TRUST_HOST: "true"
+      AUTH_DISABLED: ${AUTH_DISABLED:-false}   # true = vào thẳng, không đăng nhập
+      AUTH_GOOGLE_ID: ${AUTH_GOOGLE_ID:-}
+      AUTH_GOOGLE_SECRET: ${AUTH_GOOGLE_SECRET:-}
+      AUTH_MICROSOFT_ENTRA_ID_ID: ${AUTH_MICROSOFT_ENTRA_ID_ID:-}
+      AUTH_MICROSOFT_ENTRA_ID_SECRET: ${AUTH_MICROSOFT_ENTRA_ID_SECRET:-}
+      AUTH_MICROSOFT_ENTRA_ID_ISSUER: ${AUTH_MICROSOFT_ENTRA_ID_ISSUER:-}
+      STORAGE_DIR: /data
+    volumes: ["./storage:/data"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+    ports: ["3000:3000"]
+
+  worker:
+    image: khao-sat-tools:latest   # dùng chung image với migrate
+    pull_policy: never
+    command: npx tsx src/jobs/worker.ts
+    environment:
+      <<: *app-env
+      PGBOSS_DATABASE_URL: postgresql://khaosat_owner:${DB_OWNER_PASSWORD}@db:5432/khaosat
+    volumes: ["./storage:/data"]
+    depends_on:
+      migrate: { condition: service_completed_successfully }
+
+volumes:
+  pgdata:

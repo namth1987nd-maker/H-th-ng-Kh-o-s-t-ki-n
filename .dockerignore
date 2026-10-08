@@ -1,0 +1,17 @@
+node_modules
+.next
+.git
+.env
+.env.*
+!.env.example
+storage
+.local-pg
+coverage
+tests
+playwright-report
+test-results
+# file log + script chạy trên Windows: thay đổi liên tục, nếu lọt vào build context
+# sẽ làm mất cache "COPY . ." → lần nào cũng build lại Next.js từ đầu
+*-log.txt
+*.cmd
+*.ps1

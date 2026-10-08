@@ -1,0 +1,157 @@
+1. Chuẩn đầu ra của khóa học đã được phổ biến đầy đủ, kịp thời tới học viên
+a. Đầy đủ, kịp thời
+b. Đầy đủ nhưng còn chậm
+c. Chưa đầy đủ, chưa kịp thời
+d. Không phổ biến
+2. Học viên nắm được đầy đủ, rõ ràng về mục tiêu, chương trình đào tạo từ đầu khóa học
+a. Đầy đủ, rõ ràng
+b. Đầy đủ nhưng chưa rõ ràng
+c. Chưa đầy đủ, chưa rõ ràng
+d. Không được phổ biến
+3. Trình tự các học phần/môn học được triển khai giảng dạy bảo đảm tính khoa học, hợp lý
+a. Khoa học, hợp lý
+b. Khoa học, hợp lý nhưng chưa thường xuyên
+c. Khoa học, hợp lý nhưng còn hạn chế
+d. Không khoa học, không hợp lý
+4. Giáo trình, tài liệu học tập (giáo trình, tài liệu chính và tham khảo) của Nhà trường ở các mức độ:
+a. Phong phú và đa dạng
+b. Phong phú về giáo trình nhưng tài liệu tham khảo còn ít
+c. Giáo trình và tài liệu tham khảo còn ít
+d. Một số học phần/môn học chưa có tài liệu tham khảo
+5. Giáo trình, tài liệu học tập đáp ứng được nhu cầu học tập, nghiên cứu của học viên
+a. Đáp ứng rất tốt
+b. Đáp ứng cơ bản
+c. Đáp ứng chưa tốt
+d. Không đáp ứng
+6. Học viên thuận tiện trong việc tiếp cận nghiên cứu các loại giáo trình, tài liệu học tập
+a. Rất thuận tiện
+b. Thuận tiện
+c. Còn nhiều hạn chế
+d. Không thuận tiện
+7. Giảng viên sử dụng đa dạng, hiệu quả các phương tiện dạy học
+a. Sử dụng đa dạng và rất hiệu quả
+b. Có sử dụng đa dạng và hiệu quả
+c. Sử dụng nhưng chưa đa dạng và chưa hiệu quả
+d. Không sử dụng
+8. Giảng viên sử dụng đa dạng, hiệu quả các phương pháp giảng dạy
+a. Sử dụng đa dạng và rất hiệu quả
+b. Có sử dụng đa dạng và hiệu quả
+c. Sử dụng nhưng chưa đa dạng và chưa hiệu quả
+d. Không sử dụng
+9. Phương pháp giảng dạy của giảng viên hấp dẫn, lôi cuốn người học
+a. Rất hấp dẫn, lôi cuốn
+b. Hấp dẫn, lôi cuốn
+c. Hấp dẫn, lôi cuốn ở mức độ vừa phải
+d. Chưa hấp dẫn, chưa lôi cuốn
+10. Phương pháp giảng dạy của giảng viên phát huy được tính tích cực, chủ động của học viên
+a. Phát huy rất tốt tính tích cực, chủ động của học viên
+b. Phát huy tốt tính tích cực, chủ động của học viên
+c. Phát huy tính tích cực, chủ động của học viên nhưng còn hạn chế
+d. Không phát huy tính tích cực, chủ động của học viên
+11. Giảng viên đã tổ chức triển khai cho học viên làm việc theo nhóm, hướng dẫn xử lý các tình huống có liên quan đến nội dung học phần
+a. Tổ chức triển khai rất tốt
+b. Tổ chức triển khai theo kế hoạch
+c. Tổ chức triển khai nhưng còn nhiều hạn chế
+d. Không tổ chức triển khai
+12. Nội dung kiến thức giảng dạy được mở rộng và cập nhật tình hình thực tế có liên quan
+a. Được mở rộng và cập nhật rất tốt
+b. Được mở rộng và cập nhật theo yêu cầu
+c. Đã được mở rộng và cập nhật nhưng còn hạn chế
+d. Không mở rộng, không cập nhật
+13. Cán bộ quản lý (chủ nhiệm lớp - Phòng Quản lý học viên/Phòng Quản lý đào tạo và bồi dưỡng nâng cao) thực hiện đúng và đầy đủ các quy định về quản lý, giáo dục học viên
+a. Đúng và đầy đủ
+b. Đúng và đầy đủ nhưng chưa thường xuyên
+c. Đúng và đầy đủ nhưng còn nhiều hạn chế
+d. Không đúng và không đầy đủ
+14. Cán bộ quản lý (chủ nhiệm lớp - Phòng Quản lý học viên/Phòng Quản lý đào tạo và bồi dưỡng nâng cao) quan tâm, tạo điều kiện giúp đỡ học viên trong sinh hoạt, học tập, rèn luyện
+a. Quan tâm, tạo điều kiện
+b. Quan tâm, tạo điều kiện nhưng chưa thường xuyên
+c. Quan tâm, tạo điều kiện nhưng còn nhiều hạn chế
+d. Chưa quan tâm, chưa tạo điều kiện
+15. Cán bộ quản lý (chủ nhiệm lớp - Phòng Quản lý học viên/Phòng Quản lý đào tạo và bồi dưỡng nâng cao) luôn quan tâm, sâu sát lắng nghe, giải quyết kịp thời các yêu cầu chính đáng của học viên
+a. Quan tâm, sâu sát
+b. Quan tâm, sâu sát nhưng chưa thường xuyên
+c. Quan tâm, sâu sát nhưng còn nhiều hạn chế
+d. Chưa quan tâm, chưa sâu sát
+16. Phòng học phục vụ tốt nhu cầu học tập, nghiên cứu, thực hành... cho học viên
+a. Phục vụ rất tốt theo nhu cầu
+b. Phục vụ nhu cầu ở mức độ cơ bản
+c. Còn nhiều hạn chế, bất cập
+d. Không đáp ứng nhu cầu
+17. Phòng ở phục vụ tốt nhu cầu sinh hoạt, học tập và nghiên cứu... cho học viên
+a. Phục vụ rất tốt theo nhu cầu
+b. Phục vụ nhu cầu ở mức độ cơ bản
+c. Còn nhiều hạn chế, bất cập
+d. Không đáp ứng nhu cầu
+18. Phòng đọc của Thư viện phục vụ tốt nhu cầu học tập, nghiên cứu... cho học viên
+a. Phục vụ rất tốt theo nhu cầu
+b. Phục vụ nhu cầu ở mức độ cơ bản
+c. Còn nhiều hạn chế, bất cập
+d. Không đáp ứng nhu cầu
+19. Các tiện ích như nhà ăn, căng tin, sân tập thể thao... phục vụ tốt nhu cầu của học viên
+a. Phục vụ rất tốt theo nhu cầu
+b. Phục vụ nhu cầu ở mức độ cơ bản
+c. Còn nhiều hạn chế, bất cập
+d. Không đáp ứng nhu cầu
+20. Hoạt động đi thực tế của học viên phù hợp với nội dung, chương trình đào tạo
+a. Phù hợp
+b. Phù hợp nhưng chưa thường xuyên
+c. Còn một số hạn chế
+d. Chưa phù hợp
+21. Hoạt động thực tập tốt nghiệp của học viên phù hợp với nội dung, chương trình đào tạo gắn với chuyên ngành
+a. Hoàn toàn phù hợp
+b. Chỉ phù hợp một số chuyên ngành
+c. Còn một số hạn chế
+d. Chưa phù hợp
+22. Thời gian tổ chức thi, kiểm tra được sắp xếp phù hợp và thông báo cho học viên kịp thời
+a. Phù hợp
+b. Phù hợp nhưng chưa thường xuyên
+c. Còn một số hạn chế
+d. Không phù hợp
+23. Nội dung thi, kiểm tra các học phần phù hợp với kiến thức mà học viên đã được học tập, nghiên cứu
+a. Phù hợp
+b. Phù hợp nhưng chưa thường xuyên
+c. Còn một số hạn chế
+d. Không phù hợp
+24. Giảng viên sử dụng đa dạng và phù hợp các hình thức kiểm tra, đánh giá học phần
+a. Sử dụng rất đa dạng và phù hợp
+b. Sử dụng đa dạng và phù hợp
+c. Sử dụng đa dạng nhưng chưa phù hợp
+d. Không đa dạng, không phù hợp
+25. Đồng chí đánh giá về việc tổ chức thi kết thúc học phần, đánh giá điểm bộ phận
+a. Rất công bằng, minh bạch
+b. Công bằng, minh bạch
+c. Chưa công bằng, minh bạch
+d. Hoàn toàn không công bằng, không minh bạch
+26. Kết quả thi, kiểm tra được công bố đầy đủ, kịp thời đến học viên
+a. Đầy đủ, kịp thời
+b. Thông báo khi có yêu cầu của học viên
+c. Thông báo nhưng còn chậm
+d. Không thông báo
+27. Khóa học trang bị cho đồng chí các kỹ năng nghề nghiệp ở các mức:
+a. Hoàn thiện tốt các kỹ năng cần thiết
+b. Hoàn thiện được một số kỹ năng
+c. Bước đầu xây dựng được một số kỹ năng nhưng còn hạn chế
+d. Chưa trang bị được các kỹ năng
+28. Đồng chí hài lòng về chất lượng đào tạo của khóa học ở các mức
+a. Rất hài lòng
+b. Hài lòng
+c. Hài lòng ở mức độ thấp
+d. Chưa hài lòng
+29. Ấn tượng tốt nhất về khóa học mà đồng chí ghi nhận được:
+a. Về môi trường học tập, nghiên cứu
+b. Về đội ngũ giảng viên, cán bộ phục vụ
+c. Về cơ sở vật chất và chất lượng phục vụ
+d. Chưa có ấn tượng gì
+30. Theo đồng chí, vấn đề ưu tiên nhất mà Nhà trường cần cải tiến trong thời gian tới:
+a. Môi trường học tập, nghiên cứu
+b. Đội ngũ giảng viên, cán bộ phục vụ
+c. Cơ sở vật chất và chất lượng phục vụ
+d. Cơ chế quản lý
+31. Đồng chí hài lòng như thế nào về tổng thể quá trình học tập và trải nghiệm đối với sự phát triển về kiến thức, năng lực và phẩm chất của bản thân?
+a. Rất hài lòng
+b. Hài lòng
+c. Phân vân
+d. Không hài lòng
+e. Rất không hài lòng
+32. Những ý kiến phản ánh, góp ý cho Nhà trường ở các lĩnh vực mà học viên quan tâm (Nếu không có ý kiến gì, vui lòng ghi chữ “Không”)
